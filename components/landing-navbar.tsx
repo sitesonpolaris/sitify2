@@ -19,7 +19,7 @@ export const LandingNavbar = () => {
     return (
         <nav className="p-4 bg-transparent flex items-center justify-between">
             <Link href="/" className="flex items-center">
-                <div className="relative h-8 w-8 mr-4">
+                <div className="relative h-6 w-10 mr-4">
                     <Image 
                     alt="Logo"
                     src="/logo.png"
@@ -27,7 +27,7 @@ export const LandingNavbar = () => {
                     />
                 </div>
                 <h1 className={cn("text-2xl font-bold text-white", font.className)}>
-                    Genius
+                    Toolify AI
                 </h1>
             </Link>
             <div className="flex items-center gap-x-2">
